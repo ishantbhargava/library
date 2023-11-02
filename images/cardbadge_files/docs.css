@@ -1,0 +1,153 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+body{
+    padding-top: 0;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Lora', serif;
+
+}
+/*nav  start*/
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    border: 2px solid #1e3a8a;
+    background-color: #dbeafe;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;   
+
+}
+.nav-header{
+    font-size: 2em;
+    vertical-align: 40%;
+    font-family: "dancing Script",cursive;
+    padding-left: 1rem;
+
+}
+/*nav logo start*/
+.nav-logo>img {
+    height: 3rem;
+    width: auto;
+
+}
+.img-rd {
+    border-radius: 50%;
+  }
+  /*nav logo end*/
+
+
+/*all links*/
+.link{
+    width: max-content;
+     text-decoration: none;
+    font-style: none;
+    font-family: "dancing Script",cursive;
+    font-weight: bolder;
+}
+.nav-list>li {
+    display: inline-block;
+    font-weight: bold;
+   font-size: 1.5rem;
+   font-family: "dancing Script",cursive;
+   text-decoration: none;
+   padding-right: 13px;
+
+}
+.list-item {
+    color: #1e3a8a;
+    border: transparent;
+    display: inline-block;
+ 
+    
+   }
+   /*nav end*/
+   /*left-column-start*/
+.left-column{
+
+position: fixed;
+z-index: 3;
+width: 100%;
+margin-top: 20px;
+display: grid;
+grid-template-columns: 225px;
+grid-template-rows: 568px;
+
+
+}
+
+.left-column-main-tag{
+       border: solid 1px #1e3a8a;
+
+       border-top-left-radius: 25px;
+       border-top-right-radius: 25px;
+       color: red;
+       background-color: #dbeafe;
+      text-decoration: none;
+      margin: 25px;
+      margin-left: 25px;
+  
+      width: 200px;
+   
+    
+}
+.btn-link {
+    color:#1e3a8a;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-top: 12px ;
+    padding-left: 8px;
+    text-decoration: none;
+    font-style: none;
+    font-size: bolder;
+    
+}
+.list-items{
+    padding-top: 12px ;
+    padding-left: 3px;
+    justify-content: center;
+    margin-top:4px ;
+    
+}
+/*left-column-end*/
+/*right-section-start*/
+.text-header{
+    margin: 60px 0 0 250px;
+    font-size: 3em;
+    font-family: "dancing Script",cursive;
+     
+    color:#1e3a8a;
+    font-weight: bolder;
+}
+.inside-text-header{
+    font-size: 1em;
+    font-family: "dancing Script",cursive;
+  
+    color:#1e3a8a;
+    font-weight: bolder;
+}
+.text-area{
+    margin: 10px 200px  0 250px;
+    
+    line-height: 1.5rem;
+}
+/*right-section-end*/
+
+h3{
+    margin-top: 30px;
+    font-size:2em
+}
+.intro-code{
+    
+        margin-left: 275px;
+       
+    
+}

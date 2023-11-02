@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+@import "./Avtar.css";
+@import"Alert.css";
+@import "Badge.css";
+@import"button.css";
+@import"card.css";
+@import"image.css";
+@import"input.css";
+@import"list.css";
+@import"navigation.css";
+@import"rating.css";
+@import"slider.css";
+@import "grid.css";
+@import "textutilities.css";
+@import "snackbar.css";
